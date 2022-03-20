@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap" rel="stylesheet">
-<style type="text/css">
-    p, ul {
-      font-family: 'EB Garamond', serif;
-      font-size: 20px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <title>Ud y música árabe</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'><link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="concierto.png" alt="" width="865" /></p>
-<table style="width: 865px; margin-left: auto; margin-right: auto;">
-<tbody>
-<tr>
-<td style="text-align: left; vertical-align:top; width: 430px">
-<p><strong>PARTE 1</strong>
-</p>
-  <audio controls>
-    <source src="concierto_1.mp3" type="audio/mp3">
-  </audio>
-<p><strong>Temas:</strong></p>
-<ul>
+<!-- partial:index.partial.html -->
+
+<div id="fullpage">
+  <section class="vertical-scrolling" id="section0">
+    <h2>Ud y música árabe</h2>
+    <h3>Un concierto didáctico para <br> entender la música árabe</h3>
+    <p style="padding:1em;">Guión, voz y ud: Víctor Olaya
+  </section>
+  <section class="vertical-scrolling">    
+    <h3>Parte 1</h3>
+
+<table style="margin-left: auto; margin-right: auto; border-collapse:separate; border-spacing:1em;">  
+  <tr>
+    <td>
+    <p><strong>Temas:</strong></p>
+</td>
+<td style="text-align: left;">
+  <ul>
 <li>El ud</li>
 <li>Los instrumentos &aacute;rabes. El <em>tajt</em></li>
 <li>La naturaleza monof&oacute;nica de la m&uacute;sica &aacute;rabe</li>
@@ -31,8 +32,12 @@
 <li>La improvisaci&oacute;n en la m&uacute;sica &aacute;rabe.</li>
 <li>El <em>Taqsim</em></li>
 </ul>
-<p><strong>Piezas:</strong></p>
-<ul>
+</td>
+</tr>
+<tr>
+<td><p><strong>Piezas:</strong></p></td>
+<td style="text-align: left;">
+  <ul>
 <li>Bint Al Shalabiya (Trad.)</li>
 <li>El Helwa Di (Sayed Darwish)</li>
 <li>Aziza (Mohamed Abdel Wahab)</li>
@@ -41,28 +46,34 @@
 <li>Taqsim Nahawand (2)</li>
 </ul>
 </td>
-<td style="text-align: left; vertical-align:top; width: 430px">
-<p><strong>PARTE 2</strong><p>
-	</p>
-  <audio controls>
-    <source src="concierto_didactico/concierto_parte_2.mp3" type="audio/mp3">
+</tr>
+</table>
+<audio controls>
+    <source src="concierto_1.mp3" type="audio/mp3">
   </audio>
+
+  </section>
+  <section class="vertical-scrolling">
+    <h3>Parte 2</h3>
+
+<table style="margin-left: auto; margin-right: auto; border-collapse:separate; border-spacing:1em;">  
+<tr>
+  <td>
 <p><strong>Temas:</strong></p>
+</td>
+<td style="text-align: left;">
 <ul>
 <li>Ritmos en la música árabe</li>
-<li>Formas musicales</li>
-  <ul>
-  <li> La <em>longa</em></li>
-  <li> El <em>samai</em></li>
-  </ul>
-<li>Más sobre la improvisación</li>
-  <ul>
-    <li> La improvisación vocal en Umm Kalthum </li>
-    <li> La improvisación en la estructura pregunta-respuesta de la <em>tahmila </em></li>
-    <li> <em>Zikrayati</em>, una pieza con una sección interior improvisada (<em>taqsim</em>)</li>
-  </ul>
+<li>Formas musicales</li>  
+<li>Más sobre la improvisación</li>  
 </ul>
+</td>
+</tr>
+<tr>
+  <td>
 <p><strong>Piezas:</strong></p>
+</td>
+<td style="text-align: left;">
 <ul>
 <li>Raqsat Al Yamal (Farid Al Atrash)</li>
 <li>Saaluni Alnaas (Ziad Rahbani)</li>
@@ -76,7 +87,15 @@
 </ul>
 </td>
 </tr>
-</tbody>
 </table>
-<body>
+<audio controls>
+    <source src="concierto_didactico/concierto_parte_2.mp3" type="audio/mp3">
+  </audio>
+  </section>  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>

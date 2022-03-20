@@ -60,7 +60,7 @@
 }
 
 html {
-	font-size: 100%;
+	font-size: 150%;
 }
 
 body {
@@ -77,16 +77,12 @@ ul, li {
 	list-style-type: none;
 }
 
-
-
-
-
-/* SECTION STYLES - fullPage.js
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+audio {
+	width: 80%;
+}
 
 section {
 	text-align: center;
-  /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
 }
 
 h2 {
@@ -100,43 +96,6 @@ h3 {
 }
 
 
-
-
-
-/* MQ STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@media screen and (max-width: 767px) {
-	nav ul {
-		flex-direction: column;
-	}
-
-	nav li {
-		margin-top: 1px;
-	}
-
-  nav li a {
-    font-size: 1.5em;
-  }
-
-  .scroll-icon {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-
-  .open-menu ~ nav {
-		padding: 20px 0;
-	}
-
-	nav li a {
-		padding: 3px;
-	}
-}
 
 #section0{
 	background-image: url(./ud.jpg), url(./bg.jpg);
